@@ -29,7 +29,7 @@ class Song
   def self.artists_count
     artists_count = {}
     @@artist.each do |artist|
-    if artists_count |artist|
+    if artists_count [artist]
       artists_count[artist] += 1 
     else
       artists_count[artist] = 1 
