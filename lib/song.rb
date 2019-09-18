@@ -28,6 +28,7 @@ class Song
   
   def self.artists_count
     artists_count = {}
+    @@artist.each do 
     if artist.include? @@artist
       artists_count +=1
     else
