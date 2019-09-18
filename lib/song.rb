@@ -30,7 +30,9 @@ class Song
     artists_count = {}
     @@artist.each do |artist|
     if artists_count |artist|
-      artists_count
+      artists_count[artist] += 1 
+    else
+      artists_count = 1 
     end
    artists_count
   end
