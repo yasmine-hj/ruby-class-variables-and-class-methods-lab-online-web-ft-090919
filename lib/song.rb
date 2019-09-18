@@ -27,7 +27,7 @@ class Song
   end
   
   def self.artists_count
-    artists_count = []
+    artists_count = {}
     if artist.include? @@artist
       artists_count +=1
     else
