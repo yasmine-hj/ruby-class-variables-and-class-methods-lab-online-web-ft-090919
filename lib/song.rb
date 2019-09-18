@@ -30,9 +30,9 @@ class Song
     artists_count = []
     if artist.include? @@artist
       artists_count +=1
-   else
+    else
       artists_count = 1
-     end
+    end
   artists_count
 end
 end
