@@ -33,7 +33,7 @@ class Song
       artists_count[artist] += 1 
     else
       artists_count = 1 
+     end
     end
    artists_count
-  end
 end
